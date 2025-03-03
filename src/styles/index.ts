@@ -1,0 +1,18 @@
+export const fonts = {
+  SNProBlack: 'SNPro-Black',
+  SNProBlackItalic: 'SNPro-BlackItalic',
+  SNProBold: 'SNPro-Bold',
+  SNProBoldItalic: 'SNPro-BoldItalic',
+  SNProHeavy: 'SNPro-Heavy',
+  SNProHeavyItalic: 'SNPro-HeavyItalic',
+  SNProLight: 'SNPro-Light',
+  SNProLightItalic: 'SNPro-LightItalic',
+  SNProMedium: 'SNPro-Medium',
+  SNProMediumItalic: 'SNPro-MediumItalic',
+  SNProRegular: 'SNPro-Regular',
+  SNProRegularItalic: 'SNPro-RegularItalic',
+  SNProSemibold: 'SNPro-Semibold',
+  SNProSemiboldItalic: 'SNPro-SemiboldItalic',
+  SNProThin: 'SNPro-Thin',
+  SNProThinItalic: 'SNPro-ThinItalic',
+};

@@ -26,14 +26,13 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -48,5 +47,28 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SNPro-Black.otf</string>
+		<string>SNPro-BlackItalic.otf</string>
+		<string>SNPro-Bold.otf</string>
+		<string>SNPro-BoldItalic.otf</string>
+		<string>SNPro-Heavy.otf</string>
+		<string>SNPro-HeavyItalic.otf</string>
+		<string>SNPro-Light.otf</string>
+		<string>SNPro-LightItalic.otf</string>
+		<string>SNPro-Medium.otf</string>
+		<string>SNPro-MediumItalic.otf</string>
+		<string>SNPro-Regular.otf</string>
+		<string>SNPro-RegularItalic.otf</string>
+		<string>SNPro-Semibold.otf</string>
+		<string>SNPro-SemiboldItalic.otf</string>
+		<string>SNPro-Thin.otf</string>
+		<string>SNPro-ThinItalic.otf</string>
+		<string>NunitoSans-Bold.ttf</string>
+		<string>NunitoSans-LightItalic.ttf</string>
+		<string>NunitoSans-Regular.ttf</string>
+		<string>NunitoSans10pt-Regular.ttf</string>
+	</array>
 </dict>
 </plist>

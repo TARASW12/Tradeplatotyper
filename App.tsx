@@ -1,98 +1,69 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import {KeyboardAvoidingView, Platform, StyleSheet} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import {Load} from './src/screens/load/loading.tsx';
+import {Introduce, Introduce2, Introduce3} from './src/screens/introduce';
+const Stack = createNativeStackNavigator();
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import MyTabBar from './src/components/tabBar';
+import {Home} from './src/screens/main/home.tsx';
+import {Profile} from './src/screens/main/profile.tsx';
+import {Cards} from './src/screens/main/cards.tsx';
+import {Analytics} from './src/screens/main/analytics.tsx';
+import {useEffect, useState} from 'react';
+import {clearAllData, getData} from './src/asyncStorage';
+import {INTRODUCE} from './src/helpers/introduce.js';
+import {Invest} from './src/screens/main/invest.tsx';
+import {YourDeal} from './src/screens/main/YourDeal.tsx';
+import {InvestPid} from './src/screens/Pid/invest.tsx';
+import {BusineesPid} from './src/screens/Pid/busineess.tsx';
 
-import React from 'react';
-import type {PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+const IntroduceStack = createNativeStackNavigator();
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+const Tab = createBottomTabNavigator();
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
-
-function Section({children, title}: SectionProps): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+export const IntroduceScreen = () => {
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
+    <IntroduceStack.Navigator screenOptions={{headerShown: false}}>
+      <IntroduceStack.Screen name="IntroduceStep1" component={Introduce} />
+      <IntroduceStack.Screen name="IntroduceStep2" component={Introduce2} />
+      <IntroduceStack.Screen name="IntroduceStep3" component={Introduce3} />
+    </IntroduceStack.Navigator>
   );
-}
+};
+
+export const Main = () => {
+  return (
+    <Tab.Navigator
+      tabBar={props => <MyTabBar {...props} />}
+      screenOptions={{headerShown: false}}>
+      <Tab.Screen name="Home" component={Home} />
+      <Tab.Screen name="Invest" component={Invest} />
+      <Tab.Screen name="InvestPid" component={InvestPid} />
+      <Tab.Screen name="BusineesPid" component={BusineesPid} />
+      <Tab.Screen name="YourDeal" component={YourDeal} />
+      <Tab.Screen name="Cards" component={Cards} />
+      <Tab.Screen name="Analytics" component={Analytics} />
+      <Tab.Screen name="Profile" component={Profile} />
+    </Tab.Navigator>
+  );
+};
 
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
+  // useEffect(() => {
+  //     const clear =async () =>{
+  //         await  clearAllData()
+  //     }
+  //     clear()
+  // }, []);
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{headerShown: false}}>
+        <Stack.Screen name="Home" component={Load} />
+        <Stack.Screen name="Introduce" component={IntroduceScreen} />
+        <Stack.Screen name="Main" component={Main} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 

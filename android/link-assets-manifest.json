@@ -1,0 +1,85 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/NunitoSans-Bold.ttf",
+      "sha1": "1a43f6ab652eb0c71cd0d748bd8d4bf360903fe1"
+    },
+    {
+      "path": "src/assets/fonts/NunitoSans-LightItalic.ttf",
+      "sha1": "8f11588d00566fffbf6475a7cb05c99273dbe078"
+    },
+    {
+      "path": "src/assets/fonts/NunitoSans-Regular.ttf",
+      "sha1": "466635ba024c43f741e320148a159557fd732ec0"
+    },
+    {
+      "path": "src/assets/fonts/NunitoSans10pt-Regular.ttf",
+      "sha1": "c4bc36919dfa9ee086b71d7b2796fafc22249b97"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-Black.otf",
+      "sha1": "d9101854f33357c897d80c7843f7e1486e26c1cc"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-BlackItalic.otf",
+      "sha1": "e85e7f94ad01ffb19e8b6042e509efbca91dd0b0"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-Bold.otf",
+      "sha1": "c7c8112d9433d7b1978d29a21a78134a0a222099"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-BoldItalic.otf",
+      "sha1": "5bbffc0e82e248b33ebbfbbfc552d6cf1783e905"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-Heavy.otf",
+      "sha1": "2cc1a12bab56737aff0513f8ba1bffa4b50bb63c"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-HeavyItalic.otf",
+      "sha1": "c02a043d8c5d294e522684d02ebe39cebc349754"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-Light.otf",
+      "sha1": "770eba507b4c33218ac43d3295ee8d7464fdabc6"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-LightItalic.otf",
+      "sha1": "559b8187d720e7c06856bdf3af7bf1b278a7985d"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-Medium.otf",
+      "sha1": "409818737020176e95de763b9706e67bc4453e60"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-MediumItalic.otf",
+      "sha1": "97949e6c384a3c267c781fe45f4a0f00e01906a9"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-Regular.otf",
+      "sha1": "e3ae204f54bba14868d367afabf0c449a5fb5259"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-RegularItalic.otf",
+      "sha1": "6b2775e2ffc70b125cd66f1e2c7eef3ab28d73ad"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-Semibold.otf",
+      "sha1": "46ed857537179231926366039c1852032f37b342"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-SemiboldItalic.otf",
+      "sha1": "ea65d18d39180894608e47e0c14c04d4bdaa2f4e"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-Thin.otf",
+      "sha1": "5ee5e06fee172793fd086deaac5b9970fae1e951"
+    },
+    {
+      "path": "src/assets/fonts/SNPro-ThinItalic.otf",
+      "sha1": "33411a72d20eff43c45c3a649b2e70afddb68bc0"
+    }
+  ]
+}
