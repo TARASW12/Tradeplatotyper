@@ -11,7 +11,7 @@ import {
 import {fonts} from '../../styles';
 import CloseIcon from '../../assets/svg/close.tsx';
 import React, {useEffect, useState} from 'react';
-import {CARDS, getCards} from '../../helpers/cards.js';
+import {CARDS, formatNumberWithSpaces, getCards} from '../../helpers/cards.js';
 import {saveData} from '../../asyncStorage';
 
 export const menuItems = [
@@ -115,8 +115,8 @@ export const YourDealComponent = ({closeBlur, refetchCards, selectedCard}) => {
               }}>
               <TextInput
                 keyboardType={'numeric'}
-                value={text}
-                onChangeText={setText}
+                value={formatNumberWithSpaces(text)}
+                onChangeText={(str) => setText(str.split(' ').join(''))}
                 style={{
                   height: '100%',
                   paddingHorizontal: 20,

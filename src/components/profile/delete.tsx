@@ -43,7 +43,7 @@ export const Delete = ({deleteHandler}) => {
           fontSize: 20,
           color: 'white',
         }}>
-        Политика конфиденциальности
+     Удалить все данные
       </Text>
     </View>
   );

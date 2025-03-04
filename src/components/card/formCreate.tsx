@@ -18,7 +18,7 @@ import {Button} from '../welcome';
 import {
   CARDS,
   formatCardNumber,
-  formatN,
+  formatN, formatNumberWithSpaces,
   formatStr,
   getCards,
   getLast4CharsWithoutDash,
@@ -82,6 +82,7 @@ export const FormCreate = ({closeBlur, refetchCards}) => {
     closeBlur();
   };
 
+  console.log(sum, typeof sum)
   useValidation({
     sum,
     setErrors,
@@ -170,7 +171,7 @@ export const FormCreate = ({closeBlur, refetchCards}) => {
                 formatFunc={formatN}
                 text={sum}
                 error={errors.amount}
-                setText={str => setSym(str.slice(0, 8))}
+                setText={str => setSym(str.split(' ').join('').slice(0,11))}
               />
               <DropDownPicker
                 listMode="SCROLLVIEW"

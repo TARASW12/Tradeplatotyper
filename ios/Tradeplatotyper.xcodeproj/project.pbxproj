@@ -51,9 +51,9 @@
 		00E356EE1AD99517003FC87E /* TradeplatotyperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeplatotyperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TradeplatotyperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeplatotyperTests.m; sourceTree = "<group>"; };
-		076967AAB4934CE19524785D /* SNPro-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Light.otf"; path = "../src/assets/fonts/SNPro-Light.otf"; sourceTree = "<group>"; };
-		11ADEA1BFE7741A190F1C0C3 /* SNPro-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-RegularItalic.otf"; path = "../src/assets/fonts/SNPro-RegularItalic.otf"; sourceTree = "<group>"; };
-		131DC47B1A20450EAE893F22 /* SNPro-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-MediumItalic.otf"; path = "../src/assets/fonts/SNPro-MediumItalic.otf"; sourceTree = "<group>"; };
+		076967AAB4934CE19524785D /* SNPro-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Light.otf"; path = "../src/assets/fonts/SNPro-Light.otf"; sourceTree = "<group>"; };
+		11ADEA1BFE7741A190F1C0C3 /* SNPro-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-RegularItalic.otf"; path = "../src/assets/fonts/SNPro-RegularItalic.otf"; sourceTree = "<group>"; };
+		131DC47B1A20450EAE893F22 /* SNPro-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-MediumItalic.otf"; path = "../src/assets/fonts/SNPro-MediumItalic.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Tradeplatotyper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tradeplatotyper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Tradeplatotyper/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Tradeplatotyper/AppDelegate.mm; sourceTree = "<group>"; };
@@ -61,30 +61,30 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tradeplatotyper/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Tradeplatotyper/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Tradeplatotyper/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		150A84CCA8C440AB99EE37B7 /* SNPro-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-LightItalic.otf"; path = "../src/assets/fonts/SNPro-LightItalic.otf"; sourceTree = "<group>"; };
+		150A84CCA8C440AB99EE37B7 /* SNPro-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-LightItalic.otf"; path = "../src/assets/fonts/SNPro-LightItalic.otf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Tradeplatotyper-TradeplatotyperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tradeplatotyper-TradeplatotyperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26DB45BBC3324C38827AC25F /* SNPro-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Regular.otf"; path = "../src/assets/fonts/SNPro-Regular.otf"; sourceTree = "<group>"; };
-		32F625BC3B2E41D197FF155E /* SNPro-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-HeavyItalic.otf"; path = "../src/assets/fonts/SNPro-HeavyItalic.otf"; sourceTree = "<group>"; };
+		26DB45BBC3324C38827AC25F /* SNPro-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Regular.otf"; path = "../src/assets/fonts/SNPro-Regular.otf"; sourceTree = "<group>"; };
+		32F625BC3B2E41D197FF155E /* SNPro-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-HeavyItalic.otf"; path = "../src/assets/fonts/SNPro-HeavyItalic.otf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Tradeplatotyper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradeplatotyper.debug.xcconfig"; path = "Target Support Files/Pods-Tradeplatotyper/Pods-Tradeplatotyper.debug.xcconfig"; sourceTree = "<group>"; };
-		3C6C124896754D06964B7834 /* SNPro-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Thin.otf"; path = "../src/assets/fonts/SNPro-Thin.otf"; sourceTree = "<group>"; };
-		5286CE7602544E3EA577170C /* SNPro-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-BoldItalic.otf"; path = "../src/assets/fonts/SNPro-BoldItalic.otf"; sourceTree = "<group>"; };
-		5325E7325BFF494CB9C255BB /* SNPro-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Semibold.otf"; path = "../src/assets/fonts/SNPro-Semibold.otf"; sourceTree = "<group>"; };
-		56486287BA99490F9D9D1759 /* SNPro-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-SemiboldItalic.otf"; path = "../src/assets/fonts/SNPro-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		3C6C124896754D06964B7834 /* SNPro-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Thin.otf"; path = "../src/assets/fonts/SNPro-Thin.otf"; sourceTree = "<group>"; };
+		5286CE7602544E3EA577170C /* SNPro-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-BoldItalic.otf"; path = "../src/assets/fonts/SNPro-BoldItalic.otf"; sourceTree = "<group>"; };
+		5325E7325BFF494CB9C255BB /* SNPro-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Semibold.otf"; path = "../src/assets/fonts/SNPro-Semibold.otf"; sourceTree = "<group>"; };
+		56486287BA99490F9D9D1759 /* SNPro-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-SemiboldItalic.otf"; path = "../src/assets/fonts/SNPro-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Tradeplatotyper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradeplatotyper.release.xcconfig"; path = "Target Support Files/Pods-Tradeplatotyper/Pods-Tradeplatotyper.release.xcconfig"; sourceTree = "<group>"; };
-		5820D1EEB6D346AE81EB341E /* NunitoSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-LightItalic.ttf"; path = "../src/assets/fonts/NunitoSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		5820D1EEB6D346AE81EB341E /* NunitoSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-LightItalic.ttf"; path = "../src/assets/fonts/NunitoSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Tradeplatotyper-TradeplatotyperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradeplatotyper-TradeplatotyperTests.debug.xcconfig"; path = "Target Support Files/Pods-Tradeplatotyper-TradeplatotyperTests/Pods-Tradeplatotyper-TradeplatotyperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Tradeplatotyper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tradeplatotyper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B09A5A1A5084BD1B2B52CBF /* SNPro-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Bold.otf"; path = "../src/assets/fonts/SNPro-Bold.otf"; sourceTree = "<group>"; };
+		7B09A5A1A5084BD1B2B52CBF /* SNPro-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Bold.otf"; path = "../src/assets/fonts/SNPro-Bold.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Tradeplatotyper/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		864A6AD477364F659B6FD752 /* SNPro-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Medium.otf"; path = "../src/assets/fonts/SNPro-Medium.otf"; sourceTree = "<group>"; };
+		864A6AD477364F659B6FD752 /* SNPro-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Medium.otf"; path = "../src/assets/fonts/SNPro-Medium.otf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Tradeplatotyper-TradeplatotyperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradeplatotyper-TradeplatotyperTests.release.xcconfig"; path = "Target Support Files/Pods-Tradeplatotyper-TradeplatotyperTests/Pods-Tradeplatotyper-TradeplatotyperTests.release.xcconfig"; sourceTree = "<group>"; };
-		9E431919CB6D47ABA9437570 /* SNPro-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-ThinItalic.otf"; path = "../src/assets/fonts/SNPro-ThinItalic.otf"; sourceTree = "<group>"; };
-		9F3139BA3CCC41619F31F32A /* SNPro-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Black.otf"; path = "../src/assets/fonts/SNPro-Black.otf"; sourceTree = "<group>"; };
-		B3624A7FBDB04FD7B9CAAA08 /* SNPro-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-BlackItalic.otf"; path = "../src/assets/fonts/SNPro-BlackItalic.otf"; sourceTree = "<group>"; };
-		BDBDF7CCD0204771832F7987 /* SNPro-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Heavy.otf"; path = "../src/assets/fonts/SNPro-Heavy.otf"; sourceTree = "<group>"; };
-		D25E266E95BF4AC7BF7988D7 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Regular.ttf"; path = "../src/assets/fonts/NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
-		D66F076BE3874D769F57E3DA /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Bold.ttf"; path = "../src/assets/fonts/NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
-		E7D50519C51E455E90B29978 /* NunitoSans10pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans10pt-Regular.ttf"; path = "../src/assets/fonts/NunitoSans10pt-Regular.ttf"; sourceTree = "<group>"; };
+		9E431919CB6D47ABA9437570 /* SNPro-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-ThinItalic.otf"; path = "../src/assets/fonts/SNPro-ThinItalic.otf"; sourceTree = "<group>"; };
+		9F3139BA3CCC41619F31F32A /* SNPro-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Black.otf"; path = "../src/assets/fonts/SNPro-Black.otf"; sourceTree = "<group>"; };
+		B3624A7FBDB04FD7B9CAAA08 /* SNPro-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-BlackItalic.otf"; path = "../src/assets/fonts/SNPro-BlackItalic.otf"; sourceTree = "<group>"; };
+		BDBDF7CCD0204771832F7987 /* SNPro-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SNPro-Heavy.otf"; path = "../src/assets/fonts/SNPro-Heavy.otf"; sourceTree = "<group>"; };
+		D25E266E95BF4AC7BF7988D7 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Regular.ttf"; path = "../src/assets/fonts/NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		D66F076BE3874D769F57E3DA /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Bold.ttf"; path = "../src/assets/fonts/NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		E7D50519C51E455E90B29978 /* NunitoSans10pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans10pt-Regular.ttf"; path = "../src/assets/fonts/NunitoSans10pt-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -174,7 +174,6 @@
 				E7D50519C51E455E90B29978 /* NunitoSans10pt-Regular.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -675,10 +674,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -747,10 +743,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

@@ -4,23 +4,29 @@ import {home} from '../../configText';
 import {Button} from './button.tsx';
 import React, {useEffect, useState} from 'react';
 import {fonts} from '../../styles';
-import {getCards} from '../../helpers/cards.js';
-import {useNavigation} from '@react-navigation/native';
+import {formatNumberWithSpaces, getCards} from '../../helpers/cards.js';
+import {useFocusEffect, useNavigation} from '@react-navigation/native';
 
 export const TopContent = () => {
   const [balance, setBalance] = useState(null);
   const navigation = useNavigation();
+
+  const get = async () => {
+    const cards = (await getCards()) || [];
+    const sum = cards.reduce((acc, card) => {
+      acc += +card.balance;
+      return acc;
+    }, 0);
+    setBalance(sum);
+  };
   useEffect(() => {
-    const get = async () => {
-      const cards = (await getCards()) || [];
-      const sum = cards.reduce((acc, card) => {
-        acc += +card.balance;
-        return acc;
-      }, 0);
-      setBalance(sum);
-    };
+
     get();
   }, []);
+
+  useFocusEffect(() =>{
+    get()
+  })
   console.log(balance);
   return (
     <View style={styles.wrapper}>
@@ -30,8 +36,8 @@ export const TopContent = () => {
           <Text style={styles.text}>{home.balance}</Text>
           <Text style={styles.text}>
             {balance > 1000000
-              ? `${(balance / 1000000).toFixed(2)} млн.`
-              : balance}
+              ? `${(formatNumberWithSpaces((balance / 1000000).toFixed(2)))} млн.`
+              : formatNumberWithSpaces(balance)}
           </Text>
         </View>
       </View>

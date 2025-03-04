@@ -13,7 +13,7 @@ import {
 import bgGreen from '../../assets/backgrounds/bg.jpeg';
 import {HeaderText} from '../../components/headerText';
 import {buttonText, home, profile} from '../../configText';
-import {CARDS, getCards} from '../../helpers/cards.js';
+import {CARDS, formatNumberWithSpaces, getCards} from '../../helpers/cards.js';
 import {CardList} from '../../components/home/cardList.tsx';
 import {fonts} from '../../styles';
 import {Card} from '../../components/card/card.tsx';
@@ -206,8 +206,9 @@ export const Invest = () => {
                     keyboardType={'numeric'}
                     style={{marginTop: 20, backgroundColor: '#232336B2'}}
                     text={amountShares}
+                    formatFunc={formatNumberWithSpaces}
                     additionalText={'акций'}
-                    setText={setAmountShares}
+                    setText={(str) => setAmountShares(str.split(' ').join(''))}
                     placeholder={'Количество акций'}
                   />
                   <CustomInput
@@ -216,8 +217,9 @@ export const Invest = () => {
                     style={{marginTop: 20, backgroundColor: '#232336B2'}}
                     keyboardType={'numeric'}
                     text={sharePrice}
+                    formatFunc={formatNumberWithSpaces}
                     additionalText={'RUB'}
-                    setText={setSharePrice}
+                    setText={(str) => setSharePrice(str.split(' ').join(''))}
                     placeholder={'Цена 1 акции'}
                   />
                   <CustomInput
@@ -227,7 +229,8 @@ export const Invest = () => {
                     keyboardType={'numeric'}
                     text={divident}
                     additionalText={'RUB'}
-                    setText={setDivident}
+                    formatFunc={formatNumberWithSpaces}
+                    setText={(str) => setDivident(str.split(' ').join(''))}
                     placeholder={'Сумма дивидендов от 1 акции'}
                   />
                   <CustomInput
@@ -236,8 +239,9 @@ export const Invest = () => {
                     style={{marginTop: 20, backgroundColor: '#232336B2'}}
                     keyboardType={'numeric'}
                     text={years}
+                    formatFunc={formatNumberWithSpaces}
                     additionalText={'ЛЕТ'}
-                    setText={setYears}
+                    setText={(str) => setYears(str.split(' ').join(''))}
                     placeholder={'Количество лет удержания акций'}
                   />
                   <CustomInput
@@ -246,8 +250,9 @@ export const Invest = () => {
                     style={{marginTop: 20, backgroundColor: '#232336B2'}}
                     keyboardType={'numeric'}
                     text={risePercentage}
+                    formatFunc={formatNumberWithSpaces}
                     additionalText={'%'}
-                    setText={setRisePersentage}
+                    setText={(str) => setRisePersentage(str.split(' ').join(''))}
                     placeholder={'% Роста в год'}
                   />
 

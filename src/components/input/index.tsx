@@ -8,6 +8,7 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 import {fonts} from '../../styles';
+import {formatNumberWithSpaces} from "../../helpers/cards.js";
 type Props = {
   text: string;
   setText: (str: string) => void;

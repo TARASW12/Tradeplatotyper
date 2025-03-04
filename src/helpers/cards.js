@@ -5,7 +5,10 @@ import Share from "react-native-share";
 
 export const CARDS = 'cards';
 export const formatStr = str => str.slice(0, 30);
-export const formatN = str => str.slice(0, 8);
+export const formatN = str =>{
+  const b = formatNumberWithSpaces(str || '')
+  return b.slice(0,11)
+};
 
 export function formatCardNumber(cardNumber) {
   cardNumber = cardNumber.replace(/\D/g, '');
@@ -68,4 +71,9 @@ export const createAndDownloadExcel = async ({cards, invest}) => {
   } catch (error) {
     console.error('Помилка створення файлу:', error);
   }
+}
+
+
+export function formatNumberWithSpaces(number) {
+  return number?.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 }

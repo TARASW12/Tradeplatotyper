@@ -2,6 +2,7 @@ import {Text, View} from 'react-native';
 import {BlurView} from '@react-native-community/blur';
 import {fonts} from '../../styles';
 import React from 'react';
+import {formatNumberWithSpaces} from "../../helpers/cards.js";
 
 export const Data = ({income, waste}) => {
   return (
@@ -107,8 +108,8 @@ export const Data = ({income, waste}) => {
             <Text style={{color: 'white'}}>
               {' '}
               {income > 1000000
-                ? `${(income / 1000000).toFixed(2)} млн. RUB`
-                : `${income} RUB`}
+                ? `${formatNumberWithSpaces((income / 1000000).toFixed(2))} млн. RUB`
+                : `${formatNumberWithSpaces(income)} RUB`}
             </Text>
           </View>
           <View
@@ -127,10 +128,9 @@ export const Data = ({income, waste}) => {
               }}
             />
             <Text style={{color: 'white'}}>
-              {' '}
-              {waste > 1000000
-                ? `${(waste / 1000000).toFixed(2)} млн. RUB`
-                : `${waste} RUB`}
+                {waste > 1000000
+                    ? `${formatNumberWithSpaces((waste / 1000000).toFixed(2))} млн. RUB`
+                    : `${formatNumberWithSpaces(waste)} RUB`}
             </Text>
           </View>
         </View>

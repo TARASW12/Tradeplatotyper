@@ -4,7 +4,7 @@ import {fonts} from '../../styles';
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faTrash} from '@fortawesome/free-solid-svg-icons/faTrash';
-import {CARDS, getCards} from '../../helpers/cards.js';
+import {CARDS, formatNumberWithSpaces, getCards} from '../../helpers/cards.js';
 import {saveData} from '../../asyncStorage';
 
 export const Card = ({
@@ -109,7 +109,7 @@ export const Card = ({
             fontFamily: fonts.SNProRegular,
             color: MC ? 'white' : 'black',
             fontSize: 26,
-          }}>{`${balance} RUB`}</Text>
+          }}>{`${formatNumberWithSpaces(balance)} RUB`}</Text>
         <Text
           style={{
             fontFamily: fonts.SNProRegular,

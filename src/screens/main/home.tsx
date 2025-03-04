@@ -13,7 +13,7 @@ import {home, profile} from '../../configText';
 import {fonts} from '../../styles';
 import {TopContent} from '../../components/home/topContent.tsx';
 import {Boost} from '../../components/home/boost.tsx';
-import {getCards} from '../../helpers/cards.js';
+import {formatNumberWithSpaces, getCards} from '../../helpers/cards.js';
 import {Info} from '../../components/home/info.tsx';
 import {useFocusEffect, useNavigation} from '@react-navigation/native';
 
@@ -25,7 +25,7 @@ export const Home = () => {
 
   const getCardsFetch = async () => {
     const cards = (await getCards()) || [];
-    console.log(cards[1].yourDeal);
+    console.log(cards,88);
     const divident = cards?.length
       ? cards.map(c => {
           if (c?.invest?.length) {
@@ -78,6 +78,7 @@ export const Home = () => {
   }, []);
 
   useFocusEffect(() => {
+      console.log(123)
     getCardsFetch();
   });
 
@@ -99,7 +100,7 @@ export const Home = () => {
                 header={'Прогнозированая дивидентная прибиль'}
                 value={
                   allDivident
-                    ? `${allDivident} RUB / в год`
+                    ? `${formatNumberWithSpaces(allDivident)} RUB / в год`
                     : 'Нет активных инвестиций'
                 }
               />
@@ -108,7 +109,7 @@ export const Home = () => {
                 header={'Прогнозированая прибиль портфеля'}
                 value={
                   allShareRise
-                    ? `${allShareRise} RUB / в год`
+                    ? `${formatNumberWithSpaces(allShareRise)} RUB / в год`
                     : 'Нет активных инвестиций'
                 }
               />
@@ -117,7 +118,7 @@ export const Home = () => {
                 header={'Расходы на бизнес'}
                 value={
                   busineesWaste
-                    ? `${busineesWaste} RUB / в год`
+                    ? `${formatNumberWithSpaces(busineesWaste)} RUB / в год`
                     : 'Нет активного бизнеса'
                 }
               />
